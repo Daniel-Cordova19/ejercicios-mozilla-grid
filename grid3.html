@@ -29,7 +29,15 @@
     .grid {
       display: grid;
       grid-template-columns: 1fr 2fr;
-      gap: 10px;
+      gap: 23px;
+    }
+
+    .grid .one {
+      grid-column: 2 span;
+    }
+
+    .grid .four{
+      grid-column: 2 / 3;
     }
   </style>
 
